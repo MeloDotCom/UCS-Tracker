@@ -79,7 +79,14 @@
   }
   .modal-content .btn-primary:hover { background: var(--blue-dark); }
   .made-by { font-size: 11px; color: var(--text-light); margin-top: 18px; }
- 
+
+   .modal-content .btn-secondary {
+    width: 100%; margin-top: 16px; padding: 13px;
+    background: var(--blue-primary); color: white;
+    border: none; border-radius: var(--radius-sm);
+    font-size: 16px; font-weight: 700; cursor: pointer;
+    transition: background 0.2s;
+  }
   /* MAIN CONTENT */
   .main {
     margin-top: 64px;

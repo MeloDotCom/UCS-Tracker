@@ -54,7 +54,7 @@ function renderPesos() {
   for (let i = 0; i < n; i++) {
     html += `<div class="form-group" style="min-width:80px;">
       <label>Aval. ${i+1}</label>
-      <input type="number" id="peso_${i}" min="0.1" step="0.1" value="1" placeholder="Peso">
+      <input type="number" id="peso_${i}" min="0.1" step="0.1" value="10" placeholder="Peso">
     </div>`;
   }
   html += '</div>';
